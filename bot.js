@@ -226,7 +226,7 @@ client2.on('message', message => {
   if(message.content === '$d'){
 message.channel.send('#daily')
   }
-  if(message.content === '$c'){
+  if(message.content === '$i'){
 message.channel.send('#credits')
   }
   if(message.content.startsWith("$s")) {
