@@ -1560,7 +1560,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 17000; x++) {
-        message.channel.send(`**لما تكون طيز بس شبح **[ " ${x} " ]`)
+        message.channel.send(`**لما تكون ايمن طيز بس شبح **[ " ${x} " ]`)
           .then(m => {
             count++;
           })
