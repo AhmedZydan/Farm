@@ -1559,7 +1559,7 @@ client2.on('message', message => {
 if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 17000; x++) {
+      for(let x = 0; x < 30000; x++) {
         message.channel.send(`**لما تكون طيز بس شبح **[ " ${x} " ]`)
           .then(m => {
             count++;
